@@ -5,9 +5,8 @@ var init=true;
 var last_sec;
 var myFont;
 
-function preload() {
-  myFont = loadFont('Mostra Nuova Bold.otf');
-}
+
+
 
 function setup() {
   createCanvas(windowWidth,windowHeight);
@@ -27,8 +26,8 @@ function setup() {
 }
 
 function draw() {
+  textFont("Bodoni MT");
   background(34,39,230);
-  textFont(myFont);
   if(windowWidth>windowHeight){
     stroke(255,0,0);
     fill(200,40,40);
@@ -111,7 +110,7 @@ function numeri(r,r2,divisioni){
     textSize((sin(360/divisioni)*r)/2);
     
     if(windowWidth>windowHeight){
-      translate((r)-(r2/4),0);
+      translate((r)-(r2/20),0);
     }else{
       translate((r)-(r2/2),0);
     }

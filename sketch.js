@@ -107,6 +107,7 @@ function numeri(r,r2,divisioni){
     push();
     noStroke();
     rotate(i+((360/divisioni)/2));
+    textStyle(BOLD);
     textSize((sin(360/divisioni)*r)/2);
     
     if(windowWidth>windowHeight){

@@ -6,7 +6,7 @@ var last_sec;
 var myFont;
 
 function preload() {
-  myFont = loadFont('assets/Mostra Nuova Bold.otf');
+  myFont = loadFont('Mostra Nuova Bold.otf');
 }
 
 function setup() {
